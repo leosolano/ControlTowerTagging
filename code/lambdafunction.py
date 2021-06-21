@@ -2,7 +2,7 @@ import json
 import boto3
 
 
-table = "OrganizationTags"
+table = "ControlTowerTags"
 
 def lambda_handler(event, context):
     # TODO implement
