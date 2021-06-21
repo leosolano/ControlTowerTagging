@@ -16,7 +16,7 @@ Second step is the creation of the lambda function which will be usen then by ev
 
 ![Lambda1](https://github.com/leosolano/ControlTowerTagging/blob/main/images/CreateLambda.png)
 
-![Lambda2](https://github.com/leosolano/ControlTowerTagging/blob/main/images/PasteCode.png)
+![Lambda2](https://github.com/leosolano/ControlTowerTagging/blob/main/images/PastetheCode.png)
 
 ## Step 3. Create the EventBridge event
 
