@@ -12,5 +12,7 @@ First than all we need to cerate a DynamoDB table with the right structure to be
 
 ## Step 2. Create the Lambda function
 
-Secondly step is 
+Second step is the creation of the lambda function which will be usen then by event bridge to trigger the tagging process. As you can see in the code folder this is a simple python code using boto3 library to use the DynamoDB and AWS Organizations SDK in order to get tags from DynamoDB Table and putt tags to AWs Acconts created in AWS Organizations. The Partition key to get tags is the Account Name that is captiurable from the event in the field ['detail']['serviceEventDetails']['createManagedAccountStatus']['account']['accountName'].- In the other hand the account id is required to send tags toward the right account, this is why the lambda function is capturing this field from the event ['detail']['serviceEventDetails']['createManagedAccountStatus']['account']['accountId']
+
+
 
