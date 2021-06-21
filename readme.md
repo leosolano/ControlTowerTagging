@@ -10,3 +10,4 @@ First than all we need to cerate a DynamoDB table with the right structure to be
 
 ![DynamoDB2](https://github.com/leosolano/ControlTowerTagging/images/CreateItem.png)
 
+
