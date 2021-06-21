@@ -18,3 +18,10 @@ Second step is the creation of the lambda function which will be usen then by ev
 
 ![Lambda2](https://github.com/leosolano/ControlTowerTagging/blob/main/images/PasteCode.png)
 
+## Step 3. Create the EventBridge event
+
+The last step to integrate tha tagging automation using Control Tower life cycle events you need to go to event bridge an create a rule that make match with the event call CreateManagedAccount as part of the Control Tower events  logged in CloudTrail. In this order once the pattern match the rul , this event will trigger the lambda function we recently created in the step 2. 
+
+![Event1](https://github.com/leosolano/ControlTowerTagging/blob/main/images/CreateRule.png)
+
+![Event2](https://github.com/leosolano/ControlTowerTagging/blob/main/images/TriggerLambda.png)
