@@ -25,3 +25,8 @@ The last step to integrate tha tagging automation using Control Tower life cycle
 ![Event1](https://github.com/leosolano/ControlTowerTagging/blob/main/images/CreateRule.png)
 
 ![Event2](https://github.com/leosolano/ControlTowerTagging/blob/main/images/TriggerLambda.png)
+
+## Step 4. Test the integration
+
+Finally we are ready to test. First the right tags an account name must be filled in a new item in the DynamoDB table we created in step 1. Then we will be able to go to Accoutn Factory in Control Tower to create the new accpunt and wait some minutes to see the results. 
+
