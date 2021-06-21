@@ -28,5 +28,10 @@ The last step to integrate tha tagging automation using Control Tower life cycle
 
 ## Step 4. Test the integration
 
-Finally we are ready to test. First the right tags an account name must be filled in a new item in the DynamoDB table we created in step 1. Then we will be able to go to Accoutn Factory in Control Tower to create the new accpunt and wait some minutes to see the results. 
+Finally we are ready to test. First the right tags an account name must be filled in a new item in the DynamoDB table we created in step 1. Then we will be able to go to Accoutn Factory in Control Tower to create the new accpunt and wait some minutes to see the results. Just be aware how the "Display Name" in Account Factory match the partition key in the DynamoDB Tags table. 
+
+![DynamoDB3](https://github.com/leosolano/ControlTowerTagging/blob/main/images/UpdateItem.png)
+![CTAccountFactory](https://github.com/leosolano/ControlTowerTagging/blob/main/images/CreateAccount.png)
+
+
 
