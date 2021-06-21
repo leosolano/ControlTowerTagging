@@ -35,7 +35,7 @@ Finally we are ready to test. First the right tags an account name must be fille
 
 Notice how the right tags were applied automatically in AWS Organization under accpuont details, which would be useful latter to create jointly query with Athena to create nice Cost and Usage results for your customized billing integration as documented in this aws blogposts : https://aws.amazon.com/blogs/aws-cost-management/cost-tagging-and-reporting-with-aws-organizations/
 
-![Results](https://github.com/leosolano/ControlTowerTagging/blob/main/images/CreateAccount.png)
+![Results](https://github.com/leosolano/ControlTowerTagging/blob/main/images/ResultedTags2.png)
 
 
 
