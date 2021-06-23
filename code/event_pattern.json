@@ -1,0 +1,8 @@
+{
+  "detail-type": ["AWS Service Event via CloudTrail"],
+  "detail": {
+    "eventSource": ["controltower.amazonaws.com"],
+    "eventName": ["CreateManagedAccount"]
+  },
+  "source": ["aws.controltower"]
+}
